@@ -3,6 +3,6 @@ namespace BlogPhp\Engine\Pattern;
 
 trait Base
 {
-    final private function __construct() {}
-    final private function __clone() {}
+     private function __construct() {}
+     private function __clone() {}
 }
