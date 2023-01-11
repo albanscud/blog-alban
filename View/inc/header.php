@@ -20,30 +20,14 @@
       <script type="text/javascript" src="<?=ROOT_URL?>static/js/script.js"></script>
 
       <script src="<?=ROOT_URL?>static/js/tinymce/tinymce.min.js"></script>
-      <script>
-        tinymce.init({
-          selector:'#editable',
-          branding: false,
-          height: 500,
-          menubar: false,
-          plugins: [
-            "advlist autolink link image lists charmap print preview hr anchor pagebreak",
-            "searchreplace wordcount visualblocks visualchars insertdatetime media nonbreaking",
-            "table contextmenu directionality emoticons paste textcolor responsivefilemanager code"
-          ],
-          toolbar1: "formatselect | undo redo | bold italic underline | alignleft aligncenter alignright alignjustify | bullist numlist outdent indent ",
-          toolbar2: "| responsivefilemanager | link unlink anchor | image media | forecolor backcolor  | print preview code | caption | styleselect",
-
-          image_caption: true,
-          image_advtab: true ,
-
-          external_filemanager_path:"<?=ROOT_URL?>static/filemanager/",
-          filemanager_title:"Responsive Filemanager" ,
-          external_plugins: { "filemanager" : "<?=ROOT_URL?>static/filemanager/plugin.min.js"},
-          visualblocks_default_state: true ,
-
-          style_formats_autohide: true,
-          style_formats_merge: true,
-        });
-
-      </script>
+      <div class="bg-white flex">
+    <div class="sm:py-2 sm:px-2 lg:px-2" href="/"><img src="../../static/img/logo.png" alt="logo de la boite" width="200"></div>
+    <div class="mx-auto max-w-7xl px-4 sm:py-10 sm:px-6 lg:px-8">
+      <div class="text-center">
+        <h2 class="text-xl font-semibold text-orange-400">Cryptomonnaies</h2>
+        <p class="mt-1 text-4xl font-bold tracking-tight text-gray-900 sm:text-5xl lg:text-6xl">Comprendre la Blockchain</p>
+      </div>
+    </div>
+  </div>
+  <script src="https://cdn.tailwindcss.com"></script>
+<script src="https://cdn.jsdelivr.net/npm/tw-elements/dist/js/index.min.js"></script>
