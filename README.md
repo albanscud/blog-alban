@@ -39,7 +39,7 @@ Compétences à valider
 + Récupérer les données d’une base
 
 Utilisateurs :
-test@test.com
-tom@gmail.com
+alban.escudier@hotmail.fr
 
-mdp : Afpa@94010
+mdp:
+aqwx
