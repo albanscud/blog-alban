@@ -1,6 +1,7 @@
 
+
 <header>
-	<nav class="light-green">
+	<nav class="bg-violet-600">
 		<div class="container">
 			<div class="nav-wrapper">
 
@@ -56,3 +57,5 @@
 		</div>
 	</nav>
 </header>
+
+ 

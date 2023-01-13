@@ -80,7 +80,7 @@
     </section>
   </div>
 </main>
-<?php require 'inc/footer.php' ?>
+<?php require_once 'inc/footer.php' ?>
 <script src="https://cdn.tailwindcss.com"></script>
 <script src="https://cdn.jsdelivr.net/npm/tw-elements/dist/js/index.min.js"></script>
 
