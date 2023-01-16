@@ -10,7 +10,7 @@
             <h1>cet article n'existe pas !</h1>
         <?php else: ?>
 
-            <article>
+            <article class="text-3xl py-5 text-orange-400">
                 <time datetime="<?=$this->oPost->createdDate?>" pubdate="pubdate"></time>
 
                 <h1><?=htmlspecialchars($this->oPost->title)?></h1>
